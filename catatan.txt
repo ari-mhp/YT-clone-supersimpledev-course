@@ -10,3 +10,14 @@ inline: dalam teks - seperlunya ( <span> <strong> )
 
 div (block): dapat berisi element lain (p, img, input, dll)
 div = containers, buat grup element
+
+GRID :
+
+display: grid;
+
+grid-template-columns: 100px 200px 1fr ....... n ;
+                       [kolom1] [kolom2] [kolom3] ... [kolom-n]
+- jumlah kolom yang dibuat sesuai dengan jumlah inputnya
+- ukuran tiap kolom dimasukkan sebagai input
+- 1fr = 1 free space (ambil semua space sisa)
+- jika jumlah element melebihi jumlah kolom, akan ditaruh dibaris selanjutnya
