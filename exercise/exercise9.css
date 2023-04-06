@@ -1,0 +1,152 @@
+.a-red {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+}
+
+.b-green {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+.c-div {
+  width: 250px;
+  border: 1px solid gray;
+  padding: 10px 20px;
+}
+
+.c-title,
+.c-btn1,
+.c-btn2 {
+  margin: 10px 0px;
+}
+
+.d-div {
+  background-color: rgb(36, 36, 36);
+  width: 350px;
+  padding: 10px 20px;
+}
+
+.d-title,
+.d-desc {
+  margin: 10px 0px;
+  font-family: Roboto;
+}
+
+.d-title {
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.d-desc {
+  color: gray;
+  font-size: 16px;
+}
+
+.e-div {
+  width: 450px;
+  padding: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.e-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  vertical-align: middle;
+}
+
+.e-status {
+  border: none;
+  height: 50px;
+  vertical-align: middle;
+  margin-left: 5px;
+  margin-right: 50px;
+  font-size: 18px;
+}
+
+.e-btn {
+  background-color: rgb(0, 162, 255);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.fg-div {
+  display: inline-block;
+  vertical-align: top;
+  width: 200px;
+  height: 300px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  margin-right: 10px;
+}
+
+.fg-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.fg-name,
+.fg-desc,
+.fg-btn {
+  font-family: Arial;
+  margin: 5px 5px;
+}
+
+.fg-name {
+  font-weight: bold;
+}
+
+.fg-desc {
+  font-size: 14px;
+  color: gray;
+}
+
+.fg-btn {
+  background-color: rgb(57, 117, 233);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.h-div {
+    text-align: center;
+}
+
+.h-logo {
+  width: 200px;
+  /* display: block; */
+  margin: 5px;
+}
+
+.h-box {
+  /* display: block; */
+  margin: 5px;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  padding: 10px 20px;
+  width: 70%;
+  font-size: 16px;
+}
+
+.h-btn {
+    background-color: rgba(220, 220, 220, 0.5);
+    border: none;
+    padding: 10px 20px;
+    margin-top: 30px;
+    margin-right: 10px;
+    font-weight: bold;
+    font-family: Arial;
+
+}
