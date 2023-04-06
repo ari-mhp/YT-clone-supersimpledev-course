@@ -1,9 +1,27 @@
 <!DOCTYPE html>
 <html>
-  <head>    
-    <title>Document</title>
+  <head>
+    <title>Youtube.com Clone</title>
+    <style>
+      .thumbnail {
+        width: 300px;
+        /* object-fit: contain; */
+        /* contain: jika width/height
+         telah tercapai target (300) sisanya tetap */
+        /* object-position: top; */
+        /* border: 2px solid red; */
+      }
+
+      .search-bar {
+        font-size: 20px;
+        margin-left: 12px;
+      }
+    </style>
   </head>
   <body>
-    <img src="/thumbnails/thumbnail-1.webp">
+    <img class="thumbnail" src="/thumbnails/thumbnail-1.webp" />
+    <!-- buat search box -->
+    <!-- placeholder: text yang muncul diawal -->
+    <input class="search-bar" type="text" placeholder="Search" />
   </body>
 </html>
