@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercise 11 CSS Grid</title>
+    <link rel="stylesheet" href="exercise11.css" />
+  </head>
+  <body>
+    <div
+      class="a-container"
+      style="
+        display: grid;
+        grid-template-columns: 200px 75px;
+        margin-bottom: 20px;
+      "
+    >
+      <div style="background-color: lightblue">200px</div>
+      <div style="background-color: lightpink">75px</div>
+    </div>
+
+    <div
+      class="b-container"
+      style="
+        display: grid;
+        grid-template-columns: 50px 1fr 75px;
+        margin-bottom: 20px;
+      "
+    >
+      <div style="background-color: lightblue">col1</div>
+      <div style="background-color: lightpink">col2</div>
+      <div style="background-color: lightblue">col3</div>
+    </div>
+
+    <div
+      class="c-container"
+      style="
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 10px;
+        margin-bottom: 20px;
+      "
+    >
+      <div style="background-color: lightpink">col1</div>
+      <div style="background-color: lightpink">col2</div>
+      <div style="background-color: lightpink">col3</div>
+      <div style="background-color: lightpink">col4</div>
+      <div style="background-color: lightpink">col1</div>
+      <div style="background-color: lightpink">col2</div>
+      <div style="background-color: lightpink">col3</div>
+      <div style="background-color: lightpink">col4</div>
+    </div>
+
+    <div class="d-container">
+      <div class="d-card">
+        <img class="d-profil-picture" src="pic/kucing.jpg" />
+        <p class="d-name">Oliver</p>
+        <div class="d-mutual-friend-row">
+          <img class="d-mutual-friend-pic" src="pic/kucing4.jpg" />
+          <p class="d-mutual-desc">2 mutual friends</p>
+        </div>
+        <button class="d-btn">Add Friend</button>
+      </div>
+
+      <div class="d-card">
+        <img class="d-profil-picture" src="pic/kucing2.jpg" />
+        <p class="d-name">Mimi</p>
+        <div class="d-mutual-friend-row">
+          <img class="d-mutual-friend-pic" src="pic/kucing4.jpg" />
+          <p class="d-mutual-desc">3 mutual friends</p>
+        </div>
+        <button class="d-btn">Add Friend</button>
+      </div>
+
+      <div class="d-card">
+        <img class="d-profil-picture" src="pic/kucing3.jpg" />
+        <p class="d-name">Rex</p>
+        <div class="d-mutual-friend-row">
+          <img class="d-mutual-friend-pic" src="pic/kucing4.jpg" />
+          <p class="d-mutual-desc">4 mutual friends</p>
+        </div>
+        <button class="d-btn">Add Friend</button>
+      </div>
+    </div>
+  </body>
+</html>
