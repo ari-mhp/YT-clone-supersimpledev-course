@@ -5,23 +5,37 @@
     <style>
       .thumbnail {
         width: 300px;
-        /* object-fit: contain; */
-        /* contain: jika width/height
-         telah tercapai target (300) sisanya tetap */
-        /* object-position: top; */
-        /* border: 2px solid red; */
+        display: block;
       }
 
       .search-bar {
-        font-size: 20px;
-        margin-left: 12px;
+        display: block;
+      }
+
+      .video-title {
+        width: 300px;
+      }
+
+      .video-author,
+      .video-stats {
+        display: block;
+        /* block: 1 baris diambil ( <p> )
+        inline-block: seperlunya ( <img> <input> <btn>)
+        inline: dalam teks - seperlunya ( <span> <strong> ) */
       }
     </style>
   </head>
   <body>
+    <input class="search-bar" type="text" placeholder="Search" />
+
     <img class="thumbnail" src="/thumbnails/thumbnail-1.webp" />
     <!-- buat search box -->
     <!-- placeholder: text yang muncul diawal -->
-    <input class="search-bar" type="text" placeholder="Search" />
+    <button>test</button>
+    <p class="video-title">
+      Talking Tech and AI with Google CEO Sundar Pichai!
+    </p>
+    <p class="video-author">Marques Brownlee</p>
+    <p class="video-stats">3.4M views &#183; 6 months ago</p>
   </body>
 </html>

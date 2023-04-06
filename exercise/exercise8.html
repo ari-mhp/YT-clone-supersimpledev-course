@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercise 8 Display Block</title>
+    <style>
+      .a-name,
+      .a-email {
+        display: block;
+        margin-bottom: 5px;
+        padding: 2px;
+      }
+
+      .b-desc {
+        width: 200px;
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+      .b-btn-y,
+      .b-btn-n {
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+      .c-logo {
+        width: 200px;
+        display: block;
+        margin: 10px auto;
+      }
+
+      .c-box {
+        display: block;
+        margin: 10px auto;
+        border: none;
+        border-radius: 50px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+        padding: 10px 20px;
+        width: 80%;
+      }
+
+      .d-first,
+      .d-last {
+        width: 100px;
+        display: inline-block;
+        padding: 10px;
+        margin: 5px 0px;
+        border-radius: 5px;
+        border: 0.5px solid rgb(214, 214, 214);
+      }
+
+      .d-email {
+        width: 226px;
+        display: block;
+        padding: 10px;
+        margin: 5px 0px;
+        border-radius: 5px;
+        border: 0.5px solid rgb(214, 214, 214);
+      }
+
+      .d-btn {
+        background-color: rgb(0, 110, 255);
+        color: white;
+        font-weight: bold;
+        display: block;
+        border: none;
+        padding: 10px;
+        width: 248px;
+        border-radius: 5px;
+        margin: 10px 0px;
+      }
+
+      .e-title {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 32px;
+        font-weight: 500;
+        margin-bottom: 0px;
+      }
+
+      .e-in1, .e-in2 {
+        display: block;
+        background-color: rgba(128, 128, 128, 0.1);
+        border: none;
+        width: 300px;
+        padding: 15px;
+        margin: 8px 0px;
+      }
+
+      .e-btn1 {
+        background-color: black;
+        color: white;
+        height: 50px;
+        padding: 10px 20px;
+        margin: 20px 0px;
+        margin-right: 10px;
+      }
+      .e-btn2 {
+        background-color: rgba(128, 128, 128, 0.1);
+        color: black;
+        height: 50px;
+        border: none;
+        padding: 10px 20px;
+        margin: 20px 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <input class="a-name" type="text" placeholder="Name" />
+    <input class="a-email" type="text" placeholder="Email" />
+
+    <br />
+
+    <p class="b-desc">
+      Thanks for chatting with our customer support. Would you like to take our
+      quick survey?
+    </p>
+    <button class="b-btn-y">Yes</button>
+    <button class="b-btn-n">No</button>
+
+    <br />
+    <br />
+
+    <img class="c-logo" src="../Google logo.png" />
+    <input
+      class="c-box"
+      type="text"
+      placeholder="Search Google or type a URL"
+    />
+
+    <br />
+    <br />
+
+    <input class="d-first" type="text" placeholder="First Name" />
+    <input class="d-last" type="text" placeholder="Last Name" />
+    <input class="d-email" type="text" placeholder="Email" />
+    <button class="d-btn">Sign Up</button>
+
+    <br />
+    <br />
+
+    <p class="e-title">Request a ride now</p>
+    <input class="e-in1" type="text" placeholder="Enter pickup location" />
+    <input class="e-in2" type="text" placeholder="Enter destination" />
+    <button class="e-btn1">Request now</button>
+    <button class="e-btn2">Schedule for later</button>
+  </body>
+</html>
