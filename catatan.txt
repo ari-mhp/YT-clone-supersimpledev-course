@@ -1,0 +1,12 @@
+object-fit: contain;
+contain: jika width/height telah tercapai target (300) sisanya tetap
+cover: cover seluruh area
+
+placeholder: text yang muncul diawal input box
+
+block: 1 baris diambil ( <p> <div> )
+inline-block: seperlunya ( <img> <input> <btn>)
+inline: dalam teks - seperlunya ( <span> <strong> )
+
+div (block): dapat berisi element lain (p, img, input, dll)
+div = containers, buat grup element
