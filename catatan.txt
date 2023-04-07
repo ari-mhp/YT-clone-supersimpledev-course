@@ -21,3 +21,10 @@ grid-template-columns: 100px 200px 1fr ....... n ;
 - ukuran tiap kolom dimasukkan sebagai input
 - 1fr = 1 free space (ambil semua space sisa)
 - jika jumlah element melebihi jumlah kolom, akan ditaruh dibaris selanjutnya
+
+grid: layout lebih rigid
+- kalo udah ditentuin 3 kolom akan jadi 3 kolom, tidak bis diganti kecuali dihapus
+- urutan elemen juga mempengaruhi
+- misal awal ukuran 100px sama 1fr, trus urutannya diganti, nanti ukurannya juga keganti
+
+flexbox: layout flexible
