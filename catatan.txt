@@ -28,3 +28,6 @@ grid: layout lebih rigid
 - misal awal ukuran 100px sama 1fr, trus urutannya diganti, nanti ukurannya juga keganti
 
 flexbox: layout flexible
+
+flex-shrink: 0; //jangan shrink (menyusut)
+width: 0; //shrink (menyusut)
