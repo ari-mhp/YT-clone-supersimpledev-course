@@ -1,0 +1,194 @@
+body {
+  margin-bottom: 500px;
+}
+
+p {
+  margin: 0;
+}
+
+.a-container {
+  display: flex;
+  margin-bottom: 20px;
+  height: 50px;
+}
+
+.a-left {
+  background-color: lightpink;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.a-left p {
+  background-color: black;
+  color: white;
+}
+
+.a-right {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.b-container {
+  display: flex;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.b-left {
+  background-color: lightpink;
+  width: 100px;
+}
+
+.b-right {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.b-row2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.b-row2-item {
+  background-color: black;
+  color: white;
+}
+
+.c-container {
+  margin-bottom: 20px;
+
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  width: 400px;
+  font-family: Arial;
+  padding: 10px 15px;
+}
+
+.c-row1 {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.c-row2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.c-left {
+  margin-right: 10px;
+}
+
+.c-pic {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.c-right {
+  flex: 1;
+}
+
+.c-right-row1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.c-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.c-time {
+  font-size: 14px;
+  color: gray;
+}
+
+.c-subt {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.c-message {
+  color: gray;
+}
+
+.f-container {
+  display: flex;
+  flex-direction: row;
+  font-family: Arial;
+  width: 450px;
+}
+
+.f-left {
+  margin-right: 10px;
+}
+
+.f-pic {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.f-right {
+  flex: 1;
+}
+
+.f-row1 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+}
+
+.f-account {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.f-account-id {
+  color: gray;
+}
+
+.f-row2 {
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.f-row3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.f-row3-pic {
+  background-color: gray;
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.f-row3-right {
+  flex: 1;
+}
+
+.f-row3-r1 {
+  color: gray;
+  margin-bottom: 3px;
+}
+
+.f-row3-r2 {
+  line-height: 20px;
+}
